@@ -1,6 +1,7 @@
 class UserController {
-    async createUser(req, res) {
 
+    async createUser(req, res) {
+        
     }
 
     async getUsers(req, res) {
@@ -19,3 +20,5 @@ class UserController {
 
     }
 }
+
+module.exports = new UserController()
